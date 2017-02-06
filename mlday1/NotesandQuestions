@@ -1,0 +1,25 @@
+NOTES
+
+# Characters in python are single length string
+# List can contain anything
+# We can do (npArray + constant) but not (list + constant)
+# matplotlib.pyplot.plot takes two list the x and the y axis and they should have the same dimension
+# plt.scatter(a, b) only plots the point
+# No order in dictionary
+# String characters cannot be changed. A new string has to be created
+
+
+
+# boston dataset
+# a.data --> x
+# a.target --> y
+# len(a.target) --> data size
+# a.feature_names --> data name
+# a.DESCR --> complete discription
+
+
+QUESTIONS
+
+1. What should be the initial values for a0 and a1 in linear regression?
+2. Why are the number of coefficients in the model one less than the number of features (line passing through origin)?
+
