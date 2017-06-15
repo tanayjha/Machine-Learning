@@ -1,0 +1,37 @@
+Quandl helps us to get the data from different sources
+
+d[['A', 'B']] ---> This will keep the features A and B of the original data
+
+We have to create the output columns ourself --> Taking the stock price n days ahead which is the number of days
+after which we want to predict
+
+d.fillna(val, inplace=True) --> inplace--> will not create a new dataframe
+
+df.drop(colName, axis)  -> axis = 1 --> drop column
+
+Precision = (true positive)/(true positive + false positive)
+
+Recall = (true positive)/(true positive + false negative)
+
+metrics --> gives precision recall 
+
+
+
+
+3rd Day
+
+p["blah"] = p.blah.shift(-10)
+
+If p["blah"] contains string we can replace it with numbers using 
+con = preprocessing.LabelEncoder()
+p["blah"] = con.fit_transform()
+
+
+d = datasets.load_iris()
+selector.fit(d.data, d.target)
+selector.support_
+selector.ranking_
+
+p.describe() --> mean, count, ...
+p.info()  --> null values
+
